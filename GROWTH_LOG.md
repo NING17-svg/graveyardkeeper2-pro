@@ -6,6 +6,15 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-09-03 - Adsterra six-unit integration enabled (Issue #34)
+
+- Task: Replace the empty Adsterra placeholders in `src/data/ads.ts` with the fixed six-unit codes (`native-banner`, `banner-728x90`, `banner-468x60`, `banner-320x50`, `banner-160x600`, `smartlink`) created by the private Adsterra publisher tool for graveyardkeeper2.pro.
+- Files changed: `src/data/ads.ts`.
+- URLs affected: None.
+- SEO/GEO changed: None.
+- Ad baseline: All six Adsterra units are now populated with real publisher scripts/Smartlink URL; only the standard components (responsive 728x90 / 468x60 / 320x50 banner, Native Banner after the second article module, desktop right rail 160x600, and Smartlink in the footer) emit ad markup, matching the fixed component contract.
+- Verification: `npm run verify` on the target site must pass before push.
+
 ### 2026-08-12 - Static discovery and review freshness baseline added
 
 - Task: Add locale-aware static search, automatic recent updates, visible review dates, and browser metadata/security defaults to the shared template.
