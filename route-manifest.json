@@ -34,9 +34,9 @@
     "translationKey": "cooking-recipes",
     "locale": "en-US",
     "routeKind": "fixed",
-    "url": "/cooking/",
+    "url": "/cooking",
     "alternates": {
-      "en-US": "/cooking/"
+      "en-US": "/cooking"
     }
   },
   {
@@ -44,9 +44,9 @@
     "translationKey": "dlc",
     "locale": "en-US",
     "routeKind": "fixed",
-    "url": "/dlc/",
+    "url": "/dlc",
     "alternates": {
-      "en-US": "/dlc/"
+      "en-US": "/dlc"
     }
   },
   {
@@ -54,9 +54,9 @@
     "translationKey": "early-access",
     "locale": "en-US",
     "routeKind": "fixed",
-    "url": "/early-access/",
+    "url": "/early-access",
     "alternates": {
-      "en-US": "/early-access/"
+      "en-US": "/early-access"
     }
   },
   {
@@ -64,19 +64,9 @@
     "translationKey": "editions-pricing",
     "locale": "en-US",
     "routeKind": "fixed",
-    "url": "/editions/",
+    "url": "/editions",
     "alternates": {
-      "en-US": "/editions/"
-    }
-  },
-  {
-    "id": "faq",
-    "translationKey": "faq",
-    "locale": "en-US",
-    "routeKind": "fixed",
-    "url": "/faq",
-    "alternates": {
-      "en-US": "/faq"
+      "en-US": "/editions"
     }
   },
   {
@@ -84,9 +74,19 @@
     "translationKey": "gameplay-length",
     "locale": "en-US",
     "routeKind": "fixed",
-    "url": "/gameplay-length/",
+    "url": "/gameplay-length",
     "alternates": {
-      "en-US": "/gameplay-length/"
+      "en-US": "/gameplay-length"
+    }
+  },
+  {
+    "id": "guides",
+    "translationKey": "guides",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/guides",
+    "alternates": {
+      "en-US": "/guides"
     }
   },
   {
@@ -94,9 +94,9 @@
     "translationKey": "multiplayer",
     "locale": "en-US",
     "routeKind": "fixed",
-    "url": "/multiplayer/",
+    "url": "/multiplayer",
     "alternates": {
-      "en-US": "/multiplayer/"
+      "en-US": "/multiplayer"
     }
   },
   {
@@ -114,9 +114,9 @@
     "translationKey": "release-platforms",
     "locale": "en-US",
     "routeKind": "fixed",
-    "url": "/release/",
+    "url": "/release",
     "alternates": {
-      "en-US": "/release/"
+      "en-US": "/release"
     }
   },
   {
@@ -124,9 +124,9 @@
     "translationKey": "reviews-press",
     "locale": "en-US",
     "routeKind": "fixed",
-    "url": "/reviews/",
+    "url": "/reviews",
     "alternates": {
-      "en-US": "/reviews/"
+      "en-US": "/reviews"
     }
   },
   {
@@ -134,9 +134,9 @@
     "translationKey": "romance-npcs",
     "locale": "en-US",
     "routeKind": "fixed",
-    "url": "/romance/",
+    "url": "/romance",
     "alternates": {
-      "en-US": "/romance/"
+      "en-US": "/romance"
     }
   },
   {
@@ -144,9 +144,9 @@
     "translationKey": "switch-version",
     "locale": "en-US",
     "routeKind": "fixed",
-    "url": "/switch-2/",
+    "url": "/switch-2",
     "alternates": {
-      "en-US": "/switch-2/"
+      "en-US": "/switch-2"
     }
   },
   {
@@ -154,9 +154,9 @@
     "translationKey": "system-requirements",
     "locale": "en-US",
     "routeKind": "fixed",
-    "url": "/system-requirements/",
+    "url": "/system-requirements",
     "alternates": {
-      "en-US": "/system-requirements/"
+      "en-US": "/system-requirements"
     }
   },
   {
@@ -174,9 +174,9 @@
     "translationKey": "trophy-achievements",
     "locale": "en-US",
     "routeKind": "fixed",
-    "url": "/trophies/",
+    "url": "/trophies",
     "alternates": {
-      "en-US": "/trophies/"
+      "en-US": "/trophies"
     }
   },
   {
@@ -184,9 +184,19 @@
     "translationKey": "vs-graveyard-keeper",
     "locale": "en-US",
     "routeKind": "fixed",
-    "url": "/vs-graveyard-keeper/",
+    "url": "/vs-graveyard-keeper",
     "alternates": {
-      "en-US": "/vs-graveyard-keeper/"
+      "en-US": "/vs-graveyard-keeper"
+    }
+  },
+  {
+    "id": "wiki",
+    "translationKey": "wiki",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/wiki",
+    "alternates": {
+      "en-US": "/wiki"
     }
   }
 ]
