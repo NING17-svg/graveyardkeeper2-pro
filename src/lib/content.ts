@@ -1,24 +1,28 @@
 import type { FAQItem, PageContent, RouteKind } from "@/types/content";
 import { entityFamilies } from "@/data/entities";
 import { faqItems } from "@/data/faq";
-import { guidePages } from "@/data/pages/guide-pages";
+import { contentPages } from "@/data/pages/content-pages";
+import { fixturePages } from "@/data/pages/fixture-pages";
 import { homePage } from "@/data/pages/home";
-import { releasePages } from "@/data/pages/release-pages";
 import { sitePages } from "@/data/pages/site-pages";
-import { wikiPages } from "@/data/pages/wiki-pages";
 import { buildEntityPages } from "@/lib/entities";
 import { normalizePath } from "@/lib/localization";
 
-const fixedPages: PageContent[] = [
+const productionPages: PageContent[] = [
   homePage,
-  ...wikiPages,
-  ...guidePages,
-  ...releasePages,
+  ...contentPages,
   ...sitePages,
 ];
 
-const pages: PageContent[] = [
-  ...fixedPages,
+const allPages: PageContent[] = [
+  ...productionPages,
+  ...fixturePages,
+  ...buildEntityPages(entityFamilies),
+];
+
+const indexablePages: PageContent[] = [
+  ...productionPages,
+  ...fixturePages,
   ...buildEntityPages(entityFamilies),
 ];
 
@@ -32,30 +36,30 @@ export interface FinalRouteManifestEntry {
 }
 
 export function getAllPages(): PageContent[] {
-  return pages;
+  return allPages;
 }
 
 export function getIndexablePages(): PageContent[] {
-  return pages;
+  return indexablePages;
 }
 
 export function getPageByUrl(url: string): PageContent | undefined {
   const normalized = normalizePath(url);
-  return pages.find((page) => page.url === normalized);
+  return allPages.find((page) => page.url === normalized);
 }
 
 export function getPageBySlug(slug: string): PageContent | undefined {
   const normalizedSlug = slug.replace(/^\/+|\/+$/g, "");
-  return pages.find((page) => page.slug === normalizedSlug);
+  return allPages.find((page) => page.slug === normalizedSlug);
 }
 
 export function getPageById(id: string): PageContent | undefined {
-  return pages.find((page) => page.id === id);
+  return allPages.find((page) => page.id === id);
 }
 
 export function getLanguageAlternates(
   page: PageContent,
-  sourcePages: PageContent[] = pages,
+  sourcePages: PageContent[] = indexablePages,
 ): Record<string, string> {
   return Object.fromEntries(
     sourcePages
@@ -65,7 +69,7 @@ export function getLanguageAlternates(
 }
 
 export function getFinalRouteManifest(
-  sourcePages: PageContent[] = pages,
+  sourcePages: PageContent[] = indexablePages,
 ): FinalRouteManifestEntry[] {
   return sourcePages
     .map((page) => ({

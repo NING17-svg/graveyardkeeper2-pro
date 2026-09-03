@@ -1,0 +1,192 @@
+[
+  {
+    "id": "home",
+    "translationKey": "home",
+    "locale": "en-US",
+    "routeKind": "home",
+    "url": "/",
+    "alternates": {
+      "en-US": "/"
+    }
+  },
+  {
+    "id": "about",
+    "translationKey": "about",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/about",
+    "alternates": {
+      "en-US": "/about"
+    }
+  },
+  {
+    "id": "contact",
+    "translationKey": "contact",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/contact",
+    "alternates": {
+      "en-US": "/contact"
+    }
+  },
+  {
+    "id": "fixed-cooking-recipes-en-US",
+    "translationKey": "cooking-recipes",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/cooking/",
+    "alternates": {
+      "en-US": "/cooking/"
+    }
+  },
+  {
+    "id": "fixed-dlc-en-US",
+    "translationKey": "dlc",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/dlc/",
+    "alternates": {
+      "en-US": "/dlc/"
+    }
+  },
+  {
+    "id": "fixed-early-access-en-US",
+    "translationKey": "early-access",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/early-access/",
+    "alternates": {
+      "en-US": "/early-access/"
+    }
+  },
+  {
+    "id": "fixed-editions-pricing-en-US",
+    "translationKey": "editions-pricing",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/editions/",
+    "alternates": {
+      "en-US": "/editions/"
+    }
+  },
+  {
+    "id": "faq",
+    "translationKey": "faq",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/faq",
+    "alternates": {
+      "en-US": "/faq"
+    }
+  },
+  {
+    "id": "fixed-gameplay-length-en-US",
+    "translationKey": "gameplay-length",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/gameplay-length/",
+    "alternates": {
+      "en-US": "/gameplay-length/"
+    }
+  },
+  {
+    "id": "fixed-multiplayer-en-US",
+    "translationKey": "multiplayer",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/multiplayer/",
+    "alternates": {
+      "en-US": "/multiplayer/"
+    }
+  },
+  {
+    "id": "privacy-policy",
+    "translationKey": "privacy-policy",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/privacy-policy",
+    "alternates": {
+      "en-US": "/privacy-policy"
+    }
+  },
+  {
+    "id": "fixed-release-platforms-en-US",
+    "translationKey": "release-platforms",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/release/",
+    "alternates": {
+      "en-US": "/release/"
+    }
+  },
+  {
+    "id": "fixed-reviews-press-en-US",
+    "translationKey": "reviews-press",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/reviews/",
+    "alternates": {
+      "en-US": "/reviews/"
+    }
+  },
+  {
+    "id": "fixed-romance-npcs-en-US",
+    "translationKey": "romance-npcs",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/romance/",
+    "alternates": {
+      "en-US": "/romance/"
+    }
+  },
+  {
+    "id": "fixed-switch-version-en-US",
+    "translationKey": "switch-version",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/switch-2/",
+    "alternates": {
+      "en-US": "/switch-2/"
+    }
+  },
+  {
+    "id": "fixed-system-requirements-en-US",
+    "translationKey": "system-requirements",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/system-requirements/",
+    "alternates": {
+      "en-US": "/system-requirements/"
+    }
+  },
+  {
+    "id": "terms",
+    "translationKey": "terms",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/terms",
+    "alternates": {
+      "en-US": "/terms"
+    }
+  },
+  {
+    "id": "fixed-trophy-achievements-en-US",
+    "translationKey": "trophy-achievements",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/trophies/",
+    "alternates": {
+      "en-US": "/trophies/"
+    }
+  },
+  {
+    "id": "fixed-vs-graveyard-keeper-en-US",
+    "translationKey": "vs-graveyard-keeper",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/vs-graveyard-keeper/",
+    "alternates": {
+      "en-US": "/vs-graveyard-keeper/"
+    }
+  }
+]

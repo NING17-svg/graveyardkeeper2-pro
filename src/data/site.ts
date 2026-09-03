@@ -24,14 +24,15 @@ export interface SiteConfig {
 }
 
 export const site: SiteConfig = {
-  name: "Template Game Guide",
-  brandMark: "GG",
-  gameName: "Template Game",
-  domain: "example.com",
-  baseUrl: (process.env.NEXT_PUBLIC_SITE_URL || "https://example.com").replace(/\/$/, ""),
+  name: "Graveyard Keeper 2 Hub",
+  brandMark: "GK2",
+  gameName: "Graveyard Keeper 2",
+  domain: "graveyardkeeper2.pro",
+  baseUrl: (process.env.NEXT_PUBLIC_SITE_URL || "https://graveyardkeeper2.pro").replace(/\/$/, ""),
   description:
-    "A neutral game guide hub template for launch pages, wiki notes, guides, release information, and FAQs.",
-  tagline: "Guides, wiki notes, release info, and launch FAQs in one clean hub.",
+    "Launch-week Graveyard Keeper 2 guide hub: release date, platforms, editions, multiplayer, cooking, romance, gameplay length, trophies, and sequel comparison.",
+  tagline:
+    "Launch-week answers for Graveyard Keeper 2 release timing, platforms, multiplayer, cooking, romance, and sequel-vs-original comparison.",
   primaryLocale: "en-US",
   locales: [
     {
@@ -53,16 +54,26 @@ export const site: SiteConfig = {
       },
     },
   ],
-  author: "Template Game Guide",
+  author: "Graveyard Keeper 2 Hub",
   gaMeasurementId: process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "",
   bingSiteAuthCode: process.env.NEXT_PUBLIC_BING_SITE_AUTH_CODE || "",
   officialSources: [
     {
-      label: "Official website",
-      href: "https://example.com",
-      description: "Replace this with the game publisher or developer website.",
+      label: "Graveyard Keeper 2 on Steam",
+      href: "https://store.steampowered.com/app/4358690/Graveyard_Keeper_2/",
+      description: "Lazy Bear Games store page for AppID 4358690 with release date, price, platform list, and Steam pre-purchase discount.",
+    },
+    {
+      label: "Official Graveyard Keeper 2 site",
+      href: "https://www.graveyardkeeper2.com/",
+      description: "Lazy Bear Games marketing site for the sequel's gameplay loop, Inquisitor role, town restoration, and zombie army.",
+    },
+    {
+      label: "Nintendo Switch 2 store page for Graveyard Keeper 2",
+      href: "https://www.nintendo.com/us/store/products/graveyard-keeper-2-switch-2/",
+      description: "Nintendo Switch 2 listing that confirms the launch date and story summary.",
     },
   ],
   disclaimer:
-    "This is an unofficial fan guide template. Replace placeholder facts with official sources before launch.",
+    "This is an unofficial fan guide hub. Release, platform, price, and feature facts are sourced from the Steam store page, the official graveyardkeeper2.com marketing site, the Nintendo Switch 2 store page, and supporting media coverage.",
 };
