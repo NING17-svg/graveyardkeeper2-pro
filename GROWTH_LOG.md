@@ -6,6 +6,14 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-09-23 - /trophies replaced with launch-day achievement list
+
+- Task: Replace the 2026-09-03 placeholder on `/trophies` with the launch-day 38-achievement list (15 story + 18 progression + 5 hidden).
+- Files changed: `src/data/pages/content-pages.ts`, `src/data/faq.ts`.
+- URLs affected: `/trophies/`.
+- SEO/GEO changed: H1, seoTitle, metaDescription, summary, quickAnswer, keyFacts, and modules refreshed for launch-day facts; FAQ `trophy-status` updated to the new 38-achievement split; `lastReviewed` set to 2026-09-23 for the trophies page only.
+- Verification: `npm run verify` on the target site must pass before push.
+
 ### 2026-09-03 - Adsterra six-unit integration enabled (Issue #34)
 
 - Task: Replace the empty Adsterra placeholders in `src/data/ads.ts` with the fixed six-unit codes (`native-banner`, `banner-728x90`, `banner-468x60`, `banner-320x50`, `banner-160x600`, `smartlink`) created by the private Adsterra publisher tool for graveyardkeeper2.pro.

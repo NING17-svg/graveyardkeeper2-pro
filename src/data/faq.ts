@@ -123,9 +123,9 @@ export const faqItems: FAQItem[] = [
   },
   {
     id: "trophy-status",
-    question: "Does Graveyard Keeper 2 have trophies?",
+    question: "How many achievements does Graveyard Keeper 2 have?",
     answer:
-      "Trophies and achievements are expected across PC, PlayStation 5, Xbox Series, Nintendo Switch 1, and Switch 2, but the full achievement list is not published before launch. The 2018 original's 126-trophy scope is legacy reference, not a confirmed sequel scope.",
+      "Graveyard Keeper 2 ships with 38 Steam achievements on launch day, split into 15 story achievements, 18 progression achievements, and 5 hidden trophies. Console trophy parity for PS5, Xbox Series, Switch 1, and Switch 2 is not announced as of 2026-09-23.",
     pageIds: ["fixed-trophy-achievements-en-US"],
     category: "gameplay",
     schemaEligible: true,
