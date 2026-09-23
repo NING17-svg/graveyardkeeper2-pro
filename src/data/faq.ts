@@ -52,6 +52,16 @@ export const faqItems: FAQItem[] = [
     sourceStatus: "official",
   },
   {
+    id: "demo-save-carry-over",
+    question: "Do Graveyard Keeper 2 demo saves carry over to the full release?",
+    answer:
+      "Yes. tinyBuild and Lazy Bear Games confirmed that demo saves carry over to the full release on September 22, 2026 when you stay on the same platform and the same account. The demo ran September 14-22, 2026 on Steam, PS5, PS4, Xbox Series X|S, Xbox One, Nintendo Switch, and Nintendo Switch 2 before the demo client was removed on launch day.",
+    pageIds: ["fixed-early-access-en-US"],
+    category: "release",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
     id: "editions-pricing",
     question: "How much does Graveyard Keeper 2 cost?",
     answer:

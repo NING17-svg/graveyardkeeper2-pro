@@ -6,6 +6,14 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-09-24 - /early-access replaced with demo save carry-over launch-window framing
+
+- Task: Replace the 2026-09-03 Early Access-only framing on `/early-access` with the launch-window demo save carry-over answer (Sept 14-22, 2026 demo, same platform + same account, handoff steps, what transfers, achievement flag caveat, unannounced Epic/GOG demo and Steam Deck-verified demo).
+- Files changed: `src/data/pages/content-pages.ts`, `src/data/faq.ts`.
+- URLs affected: `/early-access/`.
+- SEO/GEO changed: H1, seoTitle, metaDescription, summary, quickAnswer, keyFacts, hero CTAs, and modules refreshed for the launch-window carry-over framing; FAQ `demo-save-carry-over` added under category `release` and linked from the `/early-access/` page; `lastReviewed` set to 2026-09-24 for the early-access page only.
+- Verification: `npm run verify` on the target site must pass before push.
+
 ### 2026-09-23 - /trophies replaced with launch-day achievement list
 
 - Task: Replace the 2026-09-03 placeholder on `/trophies` with the launch-day 38-achievement list (15 story + 18 progression + 5 hidden).
